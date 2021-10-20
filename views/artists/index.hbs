@@ -1,1 +1,10 @@
 <h1>Artists</h1>
+
+<ul>
+    <!--类似于loop for asp ， individual items and name properties-->
+    {{#each artists}}
+        <!--name properties-->
+        <li>{{this.name}}</li>
+    {{/each}}
+</ul>
+

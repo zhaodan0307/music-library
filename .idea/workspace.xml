@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87d54cc-9d2a-4a2d-a1c4-c808dfb5f6fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/globals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/artist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/globals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/artists.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/artists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/artists/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/artists/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <workItem from="1633755617487" duration="8434000" />
       <workItem from="1633974443998" duration="1148000" />
       <workItem from="1633998277128" duration="1652000" />
-      <workItem from="1634667571217" duration="1551000" />
+      <workItem from="1634667571217" duration="5442000" />
     </task>
     <servers />
   </component>
