@@ -34,6 +34,39 @@ router.get('/', (req, res) => {
 })
 
 
+
+
+// GET: /artists/create => show new artist form
+
+router.get('/create',(req,res) => {
+  //render ,passing a json as option
+    res.render('artists/create',{
+        title: 'Add a new Artist'
+    })
+})
+
+
+
+// POST: /artists/create => process form submission & save new Artist document
+//从那个表格得到的 表格是/create
+router.post('/create', (req, res) => {
+    // use Mongoose model to create a new Artist document
+    Artist.create({
+        //read the input from our form called name
+        name: req.body.name
+    }, (err, newArtist) => {
+        if (err) {
+            console.log(err)
+            res.end(err)
+        }
+        else { // save successful; update artists list view
+            //go back to main artists page
+            res.redirect('/artists')
+        }
+    })
+})
+
+
 //make public
 
 module.exports = router;
